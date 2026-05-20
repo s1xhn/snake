@@ -1,6 +1,5 @@
 import { el } from '../utils.js';
 import { navigate } from '../router.js';
-import { dispatch } from '../store.js';
 
 export function visionPage() {
   const content = document.getElementById('content');

@@ -1,4 +1,4 @@
-import { today, calcBMR, calcTDEE, goalCalories, macroSplit } from './utils.js';
+import { today } from './utils.js';
 
 const STORAGE_KEY = 'fitness-os';
 

@@ -1,4 +1,4 @@
-import { el, animateNumber, calcBMR, calcTDEE, goalCalories, macroSplit } from '../utils.js';
+import { el, animateNumber, calcBMR, calcTDEE } from '../utils.js';
 import { getState, dispatch } from '../store.js';
 
 export function calculatorPage() {

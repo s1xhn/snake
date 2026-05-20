@@ -1,7 +1,6 @@
-import { el, today, animateNumber } from '../utils.js';
+import { el, today, animateNumber, calcBMR, calcTDEE, goalCalories, macroSplit } from '../utils.js';
 import { navigate } from '../router.js';
 import { getState, getDailyTotals, subscribe } from '../store.js';
-import { calcBMR, calcTDEE, goalCalories, macroSplit } from '../utils.js';
 
 export function dashboardPage() {
   const content = document.getElementById('content');
